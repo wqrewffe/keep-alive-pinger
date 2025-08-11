@@ -8,7 +8,7 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Ping nafsthought.onrender.com
         run: |
