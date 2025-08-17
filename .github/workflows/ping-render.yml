@@ -19,3 +19,8 @@ jobs:
         run: |
           curl -s https://nafsketch.onrender.com/ > /dev/null
           echo "Pinged nafsketch.onrender.com at $(date)"
+
+      - name: Ping nafsaihub.onrender.com
+        run: |
+          curl -s https://nafsaihub.onrender.com/ > /dev/null
+          echo "Pinged nafsaihub.onrender.com at $(date)"
